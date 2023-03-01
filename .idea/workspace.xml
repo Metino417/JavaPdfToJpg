@@ -9,16 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="633ace44-0553-4e3d-97d2-4cce7c675bef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/org_DetaySoft_HuseyinAlkis_PdfToJPG_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/DetaySoft/HuseyinAlkis/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="633ace44-0553-4e3d-97d2-4cce7c675bef" name="Changes" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/org_DetaySoft_HuseyinAlkis_PdfToJPG_jar/org.DetaySoft.HuseyinAlkis.PdfToJPG.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/org_DetaySoft_HuseyinAlkis_PdfToJPG_jar/org.DetaySoft.HuseyinAlkis.PdfToJPG.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +28,13 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\test\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../Program Files (x86)/apache-maven-3.9.0" />
+        <option name="userSettingsFile" value="C:\Users\test\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -50,10 +53,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/org.DetaySoft.HuseyinAlkis.PdfToJPG",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -61,7 +64,20 @@
       <command value="mvn " />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.DetaySoft.HuseyinAlkis.Main" />
+      <module name="org.DetaySoft.HuseyinAlkis.PdfToJPG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.DetaySoft.HuseyinAlkis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.DetaySoft.HuseyinAlkis.PdfToJPG.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/org_DetaySoft_HuseyinAlkis_PdfToJPG_jar/org.DetaySoft.HuseyinAlkis.PdfToJPG.jar" />
       <option name="PROGRAM_PARAMETERS" value="sample.pdf" />
@@ -70,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.org.DetaySoft.HuseyinAlkis.PdfToJPG.jar" />
       </list>
     </recent_temporary>
@@ -83,6 +100,36 @@
       <option name="presentableId" value="Default" />
       <updated>1677675497991</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1677686876644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677686876644</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first">
+      <created>1677686902238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677686902238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>
