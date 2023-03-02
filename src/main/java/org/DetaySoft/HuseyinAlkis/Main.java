@@ -18,7 +18,7 @@ public class Main {
             throw new ArithmeticException("Dosya seçmediniz");
         }
 
-        String destinationDir = "output/"; // resimlerin kaydedileceği dizin
+        String destinationDir = "YeniKlasor/"; // resimlerin kaydedileceği dizin
 
         try {
             PDDocument document = PDDocument.load(fileChooser.getSelectedFile());
@@ -28,9 +28,9 @@ public class Main {
                 BufferedImage image = renderer.renderImage(pageIndex);
 
                 String fileName = String.format("page-%d.jpg",pageIndex + 1);
-                File output = new File(destinationDir+fileName);
-                output.mkdirs();
-                ImageIO.write(image, "jpg", output);
+                File YeniKlasor = new File(destinationDir+fileName);
+                YeniKlasor.mkdirs();
+                ImageIO.write(image, "jpg", YeniKlasor);
             }
 
             document.close();
