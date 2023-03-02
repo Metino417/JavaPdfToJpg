@@ -17,8 +17,9 @@ public class Main {
             // Retrieve the selected file
             throw new ArithmeticException("Dosya seçmediniz");
         }
-
-        String destinationDir = "YeniKlasor/"; // resimlerin kaydedileceği dizin
+        String KullaniciDizini=System.getenv("USERPROFILE");
+        System.out.println(KullaniciDizini);
+        String destinationDir = KullaniciDizini+"/Desktop/YeniKlasorPdfToJPG/"; // resimlerin kaydedileceği dizin
 
         try {
             PDDocument document = PDDocument.load(fileChooser.getSelectedFile());
